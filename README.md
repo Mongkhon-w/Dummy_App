@@ -15,7 +15,7 @@
 ```bash
 npm init -y
 npm install express ejs
-npm install prisma @prisma/client --save-dev
+npm install prisma@^6.0.0 @prisma/client@^6.0.0 --save-dev
 npx prisma init
 ```
 

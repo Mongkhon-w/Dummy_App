@@ -1,0 +1,29 @@
+{
+  "name": "dummy_app",
+  "version": "1.0.0",
+  "description": "* Database: MySQL (XAMPP, Laragon, etc.)\r * Language: Go (Golang)\r * Framework: Fiber\r * ORM: GORM\r * Security: JWT, crypto/bcrypt (Password), และ crypto/sha256 (Refresh Token)\r * Editor: VS Code\r     * Extension: Thunder Client (For API Testing)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mongkhon-w/Dummy_App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Mongkhon-w/Dummy_App/issues"
+  },
+  "homepage": "https://github.com/Mongkhon-w/Dummy_App#readme",
+  "dependencies": {
+    "ejs": "^6.0.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@prisma/client": "^6.19.3",
+    "prisma": "^6.19.3"
+  }
+}
