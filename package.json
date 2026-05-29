@@ -23,6 +23,7 @@
     "express": "^5.2.1"
   },
   "devDependencies": {
+    "@playwright/test": "^1.60.0",
     "@prisma/client": "^6.19.3",
     "prisma": "^6.19.3"
   }
