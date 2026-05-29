@@ -25,8 +25,6 @@ npx playwright install
 # สร้างไฟล์ตั้งค่าเริ่มต้นของ Prisma
 npx prisma init
 ```
-node server.js
-npx playwright test tests/ui-api-flow.spec.ts --headed
 
 ### Environment Variables (.env)
 ```bash
@@ -60,7 +58,7 @@ node server.js
 npx playwright test tests/ui-api-flow.spec.ts --headed
 ```
 
-## 📡 API Endpoints Testing (Thunder Client)
+## 📡 API Endpoints & Web Routes
 โปรเจกต์ Dummy App นี้ถูกออกแบบมาให้มีทั้ง API (สำหรับ Setup Data) และ Web UI (สำหรับ Test UI) ดังนี้:
 
 ### ฝั่ง API (สำหรับให้ Playwright ยิงสร้างข้อมูล)
